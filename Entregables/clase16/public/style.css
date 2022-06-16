@@ -1,0 +1,71 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+/* Carga de productos */
+
+.formulario{
+    border: 2px solid black;
+    margin: 30px;
+    padding: 30px;
+   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Formulario De Productos */
+
+.table{
+    border: 2px solid black;
+    margin: 30px;
+    padding: 30px;
+    width: 100%;
+}
+
+/* Chat en vivo */
+
+.message{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.date{
+    color: brown;
+}
+
+.email{
+    text-decoration: bold;
+    color:blue;
+}
+
+.msj{
+    text-decoration: italic;
+    color: green;
+}
+
+
